@@ -14,7 +14,3 @@ services:
                         - "80:80"
                         - "443:443"
                 image: techino/nginxapp
-                volumes:
-                        - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-                        - ./nginx/error.log:/etc/nginx/error_log.log
-                        - /etc/letsencrypt/:/etc/letsencrypt/
